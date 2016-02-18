@@ -93,7 +93,7 @@ L STM32F415RG U1
 U 1 1 56A7DD7B
 P 5550 3150
 F 0 "U1" H 5550 3150 60  0000 C CNN
-F 1 "STM32F415RG" H 5550 3150 60  0000 C CNN
+F 1 "STM32F415RG" H 5475 3050 60  0000 C CNN
 F 2 "" H 5550 3150 60  0000 C CNN
 F 3 "" H 5550 3150 60  0000 C CNN
 	1    5550 3150
@@ -227,10 +227,10 @@ Text GLabel 2050 1950 2    60   Input ~ 0
 PC2
 Text GLabel 2050 2050 2    60   Input ~ 0
 PC3
-Text GLabel 2050 2150 2    60   Input ~ 0
-GND
-Text GLabel 2050 2250 2    60   Input ~ 0
-3V3
+Text GLabel 2050 2150 2    60   Output ~ 0
+VSSA
+Text GLabel 2050 2250 2    60   Output ~ 0
+VDDA
 Text GLabel 2050 2350 2    60   Input ~ 0
 PA0
 Text GLabel 2050 2450 2    60   Input ~ 0
@@ -334,9 +334,9 @@ PB13
 Text GLabel 9100 5600 0    60   BiDi ~ 0
 PB12
 Text GLabel 4700 2050 0    60   Input ~ 0
-3V3
+VSSA
 Text GLabel 4700 2150 0    60   Input ~ 0
-3V3
+VDDA
 Text GLabel 4700 2250 0    60   Input ~ 0
 GND
 Text GLabel 4700 2350 0    60   Input ~ 0
